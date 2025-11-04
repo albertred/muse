@@ -1,0 +1,118 @@
+#header_title {
+	text-align: center;
+}
+
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 175px;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	display: flex;
+	padding: 150px 0;
+	flex-direction: column;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+	display: block;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
+  }
+
+  /* Sidebar button styling */
+  .sidebar-btn {
+	display: block;
+	color: black;
+	padding: 16px;
+	margin: 0;
+	background: none;
+	border: none;
+	text-align: left;
+	font-size: inherit;
+	cursor: pointer;
+	text-decoration: none;
+  }
+
+  .sidebar-btn:hover {
+	-webkit-text-fill-color: #5d81f7;
+  }
+
+.slider {
+	width: 300px;
+	background-color: pink;
+  }
+
+#bottom-bar {
+	display: flex;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+a:hover {
+	-webkit-text-fill-color: #5d81f7; 
+}
+
+.button {
+	transition-duration: 0.4s;
+	background-color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	padding: 6px;
+	width: 100px;
+	border-radius: 8px;
+  }
+  
+.button:hover {
+	background-color: #b6c6fa; 
+  }
+
+#canvas {
+	display: flex;
+	flex-wrap: wrap;
+    position: absolute; /* Allows precise placement */
+    top: 125px; /* Adjust based on the header height */
+    left: 200px; /* Matches the sidebar width */
+    right: 190px; /* Extend to the right edge */
+    bottom: 75px; /* Extend to the bottom edge */
+    width: auto; /* Ensure it adapts to the container */
+    height: auto; /* Ensure it adapts to the container */
+    border: 2px solid black; /* Optional: For visibility */
+    background-color: white; /* Optional: To differentiate from background */
+	border-radius: 8px;
+}
+
+#words {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	height: auto;
+	padding: 5px;
+	border: 2px solid black; /* Optional: For visibility */
+    background-color: white; /* Optional: To differentiate from background */
+	border-radius: 8px;
+}
+
+#poem {
+	width: 783px;
+	display: flex;
+	border: 2px solid black; /* Optional: For visibility */
+    background-color: white; /* Optional: To differentiate from background */
+	border-radius: 8px;
+	
+}
+
+.word {
+	background-color: lightblue;
+	border: 2px solid black;
+    margin: 5px;
+	border-radius: 8px;
+	height:20px;
+	text-align: center;
+}
